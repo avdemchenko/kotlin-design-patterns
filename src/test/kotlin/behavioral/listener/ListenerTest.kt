@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 class ListenerTest {
 
     @Test
-    fun `should_listen_event`() {
+    fun `should listen an event`() {
         // given
         val listener = PrintingTextChangedListener()
 
